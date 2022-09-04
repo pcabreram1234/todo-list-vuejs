@@ -26,8 +26,8 @@ In this project I used the web technology tools described below
 
 1. HTML
 2. [CSS (Bootstrap as CSS library) ](https://getbootstrap.com/)
-3. [VueJs](https://vuejs.org/)
-4. [ViteJs](https://vitejs.dev/)
+3. [VueJs (Framework) ](https://vuejs.org/)
+4. [ViteJs (FrontEnd Bundle package tool)](https://vitejs.dev/)
 
 
 ## Install
