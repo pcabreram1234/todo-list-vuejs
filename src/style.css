@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app .row div:nth-child(2) .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#app > div.row.p-4 > div:nth-child(2) > div.mt-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 850px) {
+  #app > div.row.p-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #app > div.row.p-4 > div:nth-child(1) > form > div:nth-child(3) {
+    padding: 5px 0;
+    text-align: center;
+  }
+  #app > div.row.p-4 > div:nth-child(2) > div.mt-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #app > div.row.p-4 > div:nth-child(2) {
+    padding: 10px 0;
+  }
+}
