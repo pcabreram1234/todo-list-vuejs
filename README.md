@@ -27,6 +27,7 @@ To begin the install process you gotta to do the next steps
 
 ### Run the App
 `npm run dev` to start the development ViteJs server.
+`npm run build` if you want to generate the files and folders for a producction enviroment
 
 ## How to contribuite
 
